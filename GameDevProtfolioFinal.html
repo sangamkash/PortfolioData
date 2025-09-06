@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sangamdeep Kashyap :Game Developer Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f0f0f;
+      color: #e0e0e0;
+      padding: 20px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background-color: #181818;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    }
+
+    h1 {
+      text-align: center;
+      color: #00ffd5;
+      font-size: 2.2em;
+      margin-bottom: 10px;
+      text-shadow: 0 0 10px #00ffd5aa;
+    }
+
+    h2 {
+      color: #ff7edb;
+      margin-top: 25px;
+      text-shadow: 0 0 5px #ff7edb88;
+      font-size: 1.5em;
+    }
+
+    p, li {
+      line-height: 1.6;
+      color: #d0d0d0;
+    }
+
+    .game {
+      margin-bottom: 35px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #2a2a2a;
+      animation: slideIn 1s ease-out;
+      transition: background-color 0.3s ease;
+    }
+
+    .game:hover {
+      background-color: #1f1f1f;
+      border-radius: 8px;
+      padding: 15px;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .heading-with-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .heading-with-logo .logo {
+      max-width: 50px;
+      max-height: 50px;
+      height: auto;
+      width: auto;
+      object-fit: contain;
+      border-radius: 5%;
+      filter: drop-shadow(0 0 4px #00ffd5aa);
+      flex-shrink: 0;
+    }
+
+    a {
+      color: #00aaff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #33ddff;
+      text-decoration: underline;
+    }
+
+    iframe {
+      width: 100%;
+      height: 315px;
+      margin-top: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    iframe:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 25px rgba(0, 255, 255, 0.4);
+    }
+
+    .skills {
+      background: linear-gradient(145deg, #1c1c1c, #101010);
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 40px;
+      box-shadow: 0 0 10px #00000088;
+    }
+
+    .skills h2 {
+      color: #ffa200;
+      text-shadow: 0 0 6px #ffa20088;
+    }
+
+    .skills ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    .skills li {
+      margin-bottom: 8px;
+    }
+
+    .name {
+    text-align: center;
+    color: #ffde3a;
+    font-size: 4.2em;
+    margin-bottom: 15px;
+    text-shadow: 0 0 15px #ffd900aa;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="name">Sangamdeep Kashyap</h1>
+    <h1>Game Developer Portfolio</h1>
+    <p>With 9+ years of experience across multiplayer, real-time, AR/VR, and live mobile games, I've contributed to several successful titles.</p>
+    <br></br>
+    <div class="game">
+      <div class="heading-with-logo">
+        <img src="https://github.com/sangamkash/PortfolioData/raw/main/BattleBuckLogo.png" alt="Logo" class="logo" />
+        <h2>BattleBucks</h2>
+      </div>
+      <p><strong>Platform:</strong> Android, iOS</p>
+      <p><strong>Role:</strong> Multiplayer Game Developer</p>
+      <p><strong>Tech:</strong> Photon, Analytics Framework, Optimization</p>
+      <p>🔗 <a href="https://battlebucks.com/" target="_blank">Visit Site</a>
+         🔗 <a href="https://play.google.com/store/apps/details?hl=en_IN&id=com.singularity.battlebucks" target="_blank">play store</a></p>
+      <iframe src="https://www.youtube.com/embed/X1ManA7f1Xs" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="game">
+      <div class="heading-with-logo">
+        <img src="https://github.com/sangamkash/PortfolioData/raw/main/BattleBuckLogo.png" alt="Logo" class="logo" />
+        <h2>Altworld</h2>
+      </div>
+      <p><strong>Platform:</strong> Android, iOS</p>
+      <p><strong>Role:</strong> Multiplayer Game Developer</p>
+      <p><strong>Tech:</strong> Photon, Analytics Framework, Optimization</p>
+      <p>🔗 <a href="https://play.google.com/store/apps/details?id=com.AltWorldApp" target="_blank">play store</a></p>
+       <iframe src="https://www.youtube.com/embed/OZvDgEDe5B0" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="game">
+      <div class="heading-with-logo">
+        <img src="https://github.com/sangamkash/PortfolioData/raw/main/hike_logo.png" alt="Logo" class="logo" />
+        <h2>Hike</h2>
+      </div>
+      <p><strong>Platform:</strong> Android, iOS</p>
+      <p><strong>Role:</strong> Multiplayer Game Developer</p>
+      <p><strong>Tech:</strong> Photon, Analytics Framework, Optimization</p>
+      <p>🔗 <a href="https://www.getrushapp.com/" target="_blank">Visit Site</a></p>
+      <iframe src="https://www.youtube.com/embed/xPmXvBMb014" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="game">
+      <div class="heading-with-logo">
+        <img src="https://github.com/sangamkash/PortfolioData/raw/main/TeapotGamesLogo.png" alt="Logo" class="logo" />
+        <h2>Star Chef 2 by 99Games</h2>
+      </div>
+      <p><strong>Platform:</strong> Android, iOS</p>
+      <p><strong>Role:</strong> Gameplay Engineer</p>
+      <p>🔗 <a href="https://play.google.com/store/apps/details?id=com.NNGames.starchef_2&hl=en_IN&gl=US" target="_blank">Google Play</a></p>
+    </div>
+
+    <div class="game">
+      <div class="heading-with-logo">
+        <img src="https://github.com/sangamkash/PortfolioData/raw/main/TeapotGamesLogo.png" alt="Logo" class="logo" />
+        <h2>Coin Kings by whow.co</h2>
+      </div>
+      <p><strong>Platform:</strong> Android</p>
+      <p><strong>Role:</strong> Backend + Gameplay Engineering</p>
+      <p>🔗 <a href="https://play.google.com/store/apps/details?id=net.whow.coinkings" target="_blank">Google Play</a></p>
+      <iframe src="https://www.youtube.com/embed/waSi3Q49OTM" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="game">
+      <div class="heading-with-logo">
+        <img src="https://github.com/sangamkash/PortfolioData/raw/main/TeapotGamesLogo.png" alt="Logo" class="logo" />
+        <h2>AltWorld (Virtual Social Metaverse)</h2>
+      </div>
+      <p><strong>Platform:</strong> iOS</p>
+      <p><strong>Role:</strong> System Design, Game Logic</p>
+      <p>🔗 <a href="https://apps.apple.com/app/id1229322556" target="_blank">App Store</a></p>
+      <iframe src="https://www.youtube.com/embed/ynpP3w4dZr0" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="game">
+      <div class="heading-with-logo">
+        <img src="https://github.com/sangamkash/PortfolioData/raw/main/TeapotGamesLogo.png" alt="Logo" class="logo" />
+        <h2>War Dogs: Air Combat Flight Simulator WW II</h2>
+      </div>
+      <p><strong>Platform:</strong> Android</p>
+      <p><strong>Role:</strong> Aircraft Physics, Multiplayer Sync</p>
+      <p>🔗 <a href="https://play.google.com/store/apps/details?id=com.teapotgames.wardogs&hl=en_IN" target="_blank">Google Play</a></p>
+    </div>
+
+    <div class="skills">
+      <h2>Skills & Expertise</h2>
+      <ul>
+        <li>Multiplayer: Photon PUN, Fusion, Quantum, Nakama</li>
+        <li>Game Architecture & Optimization</li>
+        <li>Full-stack Game Development: Unity, C#, C++, Go</li>
+        <li>LiveOps, Analytics, Feature Delivery</li>
+        <li>AR/VR, Real-money gaming, Cross-platform publishing</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
